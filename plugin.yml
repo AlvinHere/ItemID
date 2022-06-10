@@ -1,0 +1,14 @@
+name: ItemID-PM4
+api: 4.4.5
+version: 1.0.0
+main: ItemID\AlvinHere\Main
+author: HannesTheDev, AlvinZ
+commands:
+  id:
+    description: "See The ID"
+    usage: /id
+    permission: itemid.use
+    aliases: [itemid, iditem]
+permissions:
+  itemid.use:
+    default: true
